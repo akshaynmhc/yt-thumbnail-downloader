@@ -14,7 +14,8 @@ export default function Home() {
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
-		const thumbnailUrl = "https://i.ytimg.com/vi/" + videoId + "/";
+		const videoIdFromUrl = new URL(videoId).searchParams.get("v");
+		  const thumbnailUrl = "https://i.ytimg.com/vi/" + videoIdFromUrl + "/"
 		const thumbnailResolutions = [
 		"default",
 		"mqdefault",
@@ -45,7 +46,7 @@ export default function Home() {
 		>
 			<Input
 			type="text"
-			label="Enter YouTube Video ID"
+			label="Enter YouTube Video URL"
 			value={videoId}
 			onChange={(e) => setVideoId(e.target.value)}
 			required
