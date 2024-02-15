@@ -9,8 +9,12 @@ export const siteConfig = {
 			href: "/",
 		},
 		{
-			label: "Alt text Generator",
-			href: "/alttext",
+			label: "Website Screenshot Generator",
+			href: "/screenshot",
+		},
+		{
+			label: "Blog",
+			href: "/blog",
 		},
 	],
 	navMenuItems: [
