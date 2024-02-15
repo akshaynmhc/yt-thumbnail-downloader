@@ -4,10 +4,14 @@ export const siteConfig = {
 	name: "YouTube Video Thumbnail Downloader",
 	description: "Download YouTube Video Thumbnails with all possible resolutions.",
 	navItems: [
-		// {
-		// 	label: "Home",
-		// 	href: "/",
-		// },
+		{
+			label: "YouTube Thumbnail Downloader",
+			href: "/",
+		},
+		{
+			label: "Alt text Generator",
+			href: "/alttext",
+		},
 	],
 	navMenuItems: [
 		{
