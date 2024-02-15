@@ -61,7 +61,7 @@ export default function ScreenshotPage() {
 		
 	  </section>
 	  <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
-	  	{loading && <p><Spinner /></p>}
+	  	{loading && <p><Spinner label="Generating Screenshot" color="primary" labelColor="primary"/></p>}
 		{screenshot && <img src={screenshot} alt="Website Screenshot" />}
 	  </section>
 	  </section>
