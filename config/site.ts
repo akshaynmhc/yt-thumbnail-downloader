@@ -12,10 +12,6 @@ export const siteConfig = {
 			label: "Website Screenshot Generator",
 			href: "/screenshot",
 		},
-		{
-			label: "Blog",
-			href: "/blog",
-		},
 	],
 	navMenuItems: [
 		{
