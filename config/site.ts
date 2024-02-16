@@ -12,6 +12,10 @@ export const siteConfig = {
 			label: "Website Screenshot Generator",
 			href: "/screenshot",
 		},
+		{
+			label: "Sitemap Generator",
+			href: "/sitemap",
+		},
 	],
 	navMenuItems: [
 		{
